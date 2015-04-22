@@ -1,0 +1,224 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e3a3eb6f17a8f06436467ec2e983e75a",
+    "packages": [
+        {
+            "name": "mthaml/mthaml",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arnaud-lb/MtHaml.git",
+                "reference": "d14c9860240710763226c4b8c09f80c80c4911dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arnaud-lb/MtHaml/zipball/d14c9860240710763226c4b8c09f80c80c4911dd",
+                "reference": "d14c9860240710763226c4b8c09f80c80c4911dd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "conflict": {
+                "mthaml/mthaml-bundle": "<1.1.0"
+            },
+            "require-dev": {
+                "cebe/markdown": "~1",
+                "coffeescript/coffeescript": "~1",
+                "erusev/parsedown": "*",
+                "fluxbb/commonmark": "~1@dev",
+                "gregwar/rst": "~1",
+                "kzykhys/ciconia": "~1",
+                "leafo/lessphp": "*",
+                "leafo/scssphp": "*",
+                "league/commonmark": ">=0.5",
+                "michelf/php-markdown": "~1.3",
+                "oyejorge/less.php": "*",
+                "twig/twig": "~1.11"
+            },
+            "suggest": {
+                "cebe/markdown": "If you want to use :markdown filter",
+                "coffeescript/coffeescript": "If you want to use :coffee or :coffeescript filter",
+                "erusev/parsedown": "If you want to use :markdown filter",
+                "fluxbb/commonmark": "If you want to use :markdown filter",
+                "gregwar/rst": "If you want to use :rest filter",
+                "kzykhys/ciconia": "If you want to use :markdown filter",
+                "leafo/lessphp": "If you want to use :less filter",
+                "leafo/scssphp": "If you want to use :scss filter",
+                "league/commonmark": "If you want to use :markdown filter",
+                "michelf/php-markdown": "If you want to use :markdown filter",
+                "oyejorge/less.php": "If you want to use :less filter",
+                "twig/twig": "If you want to use Twig templating engine"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "MtHaml\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                }
+            ],
+            "description": "HAML for PHP",
+            "homepage": "https://github.com/arnaud-lb/MtHaml",
+            "keywords": [
+                "HAML"
+            ],
+            "time": "2015-01-23 15:23:28"
+        },
+        {
+            "name": "openclerk/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openclerk/config.git",
+                "reference": "ec9283bc80a96457585891d8ede6626e18a9ecfc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openclerk/config/zipball/ec9283bc80a96457585891d8ede6626e18a9ecfc",
+                "reference": "ec9283bc80a96457585891d8ede6626e18a9ecfc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Openclerk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2015-03-18 00:27:49"
+        },
+        {
+            "name": "openclerk/events",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openclerk/events.git",
+                "reference": "70e93ef6bc69a830030f79061a2c53e8f544a70a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openclerk/events/zipball/70e93ef6bc69a830030f79061a2c53e8f544a70a",
+                "reference": "70e93ef6bc69a830030f79061a2c53e8f544a70a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Openclerk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-12-16 07:34:34"
+        },
+        {
+            "name": "openclerk/pages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openclerk/pages.git",
+                "reference": "25204584cb6c3e984d7a192ecedbba0d549e4fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openclerk/pages/zipball/25204584cb6c3e984d7a192ecedbba0d549e4fc2",
+                "reference": "25204584cb6c3e984d7a192ecedbba0d549e4fc2",
+                "shasum": ""
+            },
+            "require": {
+                "mthaml/mthaml": "^1.7.0",
+                "openclerk/events": "^0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pages\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2015-04-22 00:09:06"
+        },
+        {
+            "name": "openclerk/routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openclerk/routing.git",
+                "reference": "b67f5d5bbb2e47ffb31b494897f8881bb18e8c22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openclerk/routing/zipball/b67f5d5bbb2e47ffb31b494897f8881bb18e8c22",
+                "reference": "b67f5d5bbb2e47ffb31b494897f8881bb18e8c22",
+                "shasum": ""
+            },
+            "require": {
+                "openclerk/config": "dev-master"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0",
+                "soundasleep/component-tests": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Openclerk\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A library for simple routing in PHP",
+            "time": "2015-04-09 00:16:41"
+        },
+        {
+            "name": "soundasleep/php-helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soundasleep/php-helpers.git",
+                "reference": "2020ea268205d5e6e2fd4f0c1e3b380a0b42f8bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soundasleep/php-helpers/zipball/2020ea268205d5e6e2fd4f0c1e3b380a0b42f8bc",
+                "reference": "2020ea268205d5e6e2fd4f0c1e3b380a0b42f8bc",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-12-14 06:48:18"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "openclerk/routing": 20,
+        "openclerk/pages": 20,
+        "openclerk/config": 20,
+        "soundasleep/php-helpers": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
