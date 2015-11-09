@@ -1,5 +1,6 @@
 .home
-  %h1 Quickstart
+  %h1
+    != link_to(url_for("home"), "Quickstart")
 
   %p
     %a{:href => "https://github.com/soundasleep/quickstart"} Quickstart
