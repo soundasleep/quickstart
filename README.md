@@ -19,7 +19,8 @@ frameworks, which you can quickly clone or copy to jump straight into a new web 
 3. Run `npm install` and `composer update`
 4. Edit your pages in `site/` as necessary
 5. Edit `inc/global.php` to define your `absolute_url` and any necessary CSS/JS includes (e.g. JQuery)
-6. Run `grunt` to compile the assets. (You can also use `grunt serve` to watch for changes.)
+6. If using Apache, edit `site/.htaccess` to set your `REWRITEBASE`
+7. Run `grunt` to compile the assets. (You can also use `grunt serve` to watch for changes.)
 
 # Deploying
 
