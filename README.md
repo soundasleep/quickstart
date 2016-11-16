@@ -15,7 +15,7 @@ frameworks, which you can quickly clone or copy to jump straight into a new web 
 
 1. [Fork this project](https://github.com/soundasleep/quickstart) or
    [download the latest .zip](https://github.com/soundasleep/quickstart/archive/master.zip).
-2. Update the package descriptions in `package.json` and composer.json`
+2. Update the package descriptions in `package.json` and `composer.json`
 3. Run `npm install` and `composer update`
 4. Edit your pages in `site/` as necessary
 5. Edit `inc/global.php` to define your `absolute_url` and any necessary CSS/JS includes (e.g. JQuery)
