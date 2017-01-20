@@ -27,12 +27,12 @@ frameworks, which you can quickly clone or copy to jump straight into a new web 
 ## Apache 2.4
 
 ```conf
-Alias "/quickstart" "/var/www/quickstart/site"
-<Directory "/var/www/quickstart/site">
-  Options Indexes FollowSymLinks
-  DirectoryIndex index.html index.php default.html default.php
-  AllowOverride All
-  Allow from All
-  Require all granted
-</Directory>
+<VirtualHost *:80>
+  ServerName openclerk.org
+  ServerAlias www.openclerk.org
+  DocumentRoot /var/www/openclerk.org/site/
+  <Directory /var/www/openclerk.org/site/>
+    AllowOverride all
+  </Directory>
+</VirtualHost>
 ```
